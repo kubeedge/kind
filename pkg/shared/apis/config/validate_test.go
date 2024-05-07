@@ -18,8 +18,9 @@ package config
 
 import (
 	"fmt"
-	"sigs.k8s.io/kind/pkg/internal/assert"
 	"testing"
+
+	"sigs.k8s.io/kind/pkg/shared/assert"
 
 	"sigs.k8s.io/kind/pkg/errors"
 )
