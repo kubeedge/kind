@@ -23,7 +23,7 @@ import (
 	"strings"
 
 	"sigs.k8s.io/kind/pkg/errors"
-	"sigs.k8s.io/kind/pkg/internal/sets"
+	"sigs.k8s.io/kind/pkg/shared/sets"
 )
 
 // similar to valid docker container names, but since we will prefix
